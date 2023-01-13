@@ -11,7 +11,7 @@ class Binary{
     void display();
 };
 
-    //Scope resolution oprator
+    //Scope resolution operator
     void Binary::read(){
         cout << "Enter a binary number " << endl;
         cin >> s;

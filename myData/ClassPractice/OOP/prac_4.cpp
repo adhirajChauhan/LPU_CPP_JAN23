@@ -4,8 +4,10 @@ using namespace std;
 class Person{
 
 public:
+    int count = 1;
     Person(){
-        cout << "Constructor is executed" << endl;
+        cout << count << endl;
+        // cout << "Constructor is executed" << endl;
     }
 
 //Destructors
@@ -14,14 +16,14 @@ public:
     // cannot overload destructor
     //like constructor, it doesnt require any return type and parameter
     ~Person(){
-        cout << "Destructor is executed" << endl;
+        // cout << "Destructor is executed" << endl;
     }
 
 };
 
 int main(){
     Person p1, p2, p3, p4;
-    Person *p5 = new Person;
+    // Person *p5 = new Person;
 
-    delete p5;
+    // delete p5;
 }
