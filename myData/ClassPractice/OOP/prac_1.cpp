@@ -7,8 +7,8 @@ class Student{
     //publiv private and protected are access modifiers
     //by default, variables and methods in a class are private
     private:
-    int password = 123;
-    int age = 10;
+    int password = 1234;
+    int age = 100;
 
     public: 
     int rollNumber;
