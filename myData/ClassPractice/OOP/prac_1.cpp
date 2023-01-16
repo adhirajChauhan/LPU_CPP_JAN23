@@ -8,7 +8,7 @@ class Student{
     //by default, variables and methods in a class are private
     private:
     int password = 1234;
-    int age = 100;
+    int age = 1000;
 
     public: 
     int rollNumber;
