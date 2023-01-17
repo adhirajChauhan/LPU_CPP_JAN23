@@ -6,7 +6,7 @@ class A
     int a = 2;
     int b = 4;
 
-private:
+public:
     int mul()
     {
         int c = a * b;
@@ -39,6 +39,6 @@ Base class visibilty                                         Derieved class visi
                                                         public              private             protected
 Private                                              Not inherited         Not inherited      Not inherited
 protected                                              protected            private             protected
-public                                                  
+public                                                  public              private             protected
 
 */
