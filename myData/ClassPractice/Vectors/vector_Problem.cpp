@@ -9,3 +9,12 @@ Given a vector of integers, write a program that does following :
         vector<int> numbers = {3,7,1,9,4,6,2,8,5}
 
 */
+
+#include <iostream>
+using namespace std;
+#include <vector>
+
+int main(){
+        
+}
+
